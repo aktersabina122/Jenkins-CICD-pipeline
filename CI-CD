@@ -1,7 +1,5 @@
-public class example{
-    public static void main(String[] args){
-        System.out.println("................");
-        System.out.println("Jenkins CI-CD Pipeline");
-        Syetem.out.println("................");
-        }
-}
+
+def my_function():
+  print("Hello from a function")
+
+my_function()
