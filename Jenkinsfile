@@ -6,15 +6,10 @@ pipeline {
                 echo ‘Build-Hello Jenkins’
             }
         }
-        stage(‘Test’) {
-            steps {
-               echo ‘Test-Hello Jenkins’
-            }
-        }
-        stage(‘Deploy’) {
-            steps {
-               echo ‘Deploy-Hello Jenkins’
-            }
+    }
+    post {
+        always {
+            echo ‘I will always say Hello again!’
         }
     }
 }
