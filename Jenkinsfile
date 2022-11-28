@@ -11,7 +11,7 @@ pipeline {
      stages {
         stage(‘Test’) {
             steps {
-                echo ‘Testing stage’
+                echo ‘Testing Stage’
             }
         }
       
@@ -19,7 +19,7 @@ pipeline {
       stages {
         stage(‘Deploy’) {
             steps {
-                echo ‘Deploy stage’
+                echo ‘Deploy Stage’
             }
         }
     }
